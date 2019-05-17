@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>白月黑羽测试网页3</title>
+
+    </head>
+
+    
+    <script>
+
+        
+            function appendEle(info) {
+                var node = document.createElement("LI");
+                var textnode = document.createTextNode(info);
+                node.appendChild(textnode);
+                document.getElementById("add").appendChild(node);
+            }
+        
+            function clickbutton() {       
+                appendEle("你点击了外部按钮");
+            }
+        
+            </script>
+   
+    <body>
+        
+        
+        <a href="http://www.bing.com" target="_blank">访问bing网站</a>
+        
+        
+        <div><button id='outerbutton' onclick='clickbutton()' >功能按钮</button></div>
+
+        <br>
+
+        
+
+        <div id="add"></div>
+
+    </body>
+</html>

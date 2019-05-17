@@ -1,0 +1,25 @@
+
+<br>
+
+
+<p class="text-center" style='color: #c71111'>扫码分享给朋友，一起学更有动力哦</p>
+
+<div id="code" class="text-center"></div>
+
+
+<br>
+
+<script src="http://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+<script>
+        
+    $("#code").qrcode({ 
+        //render: "table", //table方式 
+        width: 200, //宽度 
+        height:200, //高度 
+        text: window.location.href 
+    });
+    
+</script>

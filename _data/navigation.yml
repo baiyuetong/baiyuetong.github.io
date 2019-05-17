@@ -1,0 +1,310 @@
+# 这是定义顶层导航的, 访问什么url 的网页会使用下面的导航在 _config.yml里面设置
+main:
+  - title: "Python基础"
+    url: /doc/tutorial/python/0001/
+  - title: "Python进阶"
+    url: /doc/tutorial/python/level2/1001/
+  - title: "Web开发"
+    url: /doc/tutorial/django/01/
+  - title: "Web自动化"
+    url: /doc/tutorial/selenium/01/
+  - title: "Linux和MySQL"
+    url: /doc/tutorial/o/linux/01/
+  - title: "练习作业"
+    url: /doc/prac/python/0001/
+  - title: "常见问题"
+    url: /doc/faq/python/home/
+  - title: "好文分享"
+    url: /doc/blog/python/home/
+  # - title: "交流"
+  #   url: /doc/aboutforum/
+
+
+# 下面是定义侧边栏的
+
+pythontutor1:
+  # - title: 前言
+  #   url:  /doc/tutorial/python/home/
+
+
+  - title: Python基础
+    children:
+      - title: "安装与运行"
+        url:  /doc/tutorial/python/0001/
+      - title: "对象"
+        url:  /doc/tutorial/python/0002/
+      - title: "变量和注释"
+        url:  /doc/tutorial/python/0003/
+      - title: "字符串"
+        url:  /doc/tutorial/python/0004/
+      - title: "函数"
+        url:  /doc/tutorial/python/0005/
+      - title: "用户输入"
+        url:  /doc/tutorial/python/0006/
+      - title: "列表和元组"
+        url:  /doc/tutorial/python/0007/
+      - title: "判断语句"
+        url:  /doc/tutorial/python/0008/
+      - title: "对象的方法"
+        url:  /doc/tutorial/python/0009/
+      - title: "格式化字符串"
+        url:  /doc/tutorial/python/0010/
+      - title: "循环"
+        url:  /doc/tutorial/python/0011/
+      - title: "字符编码"
+        url:  /doc/tutorial/python/0012/
+      - title: "文件读写"
+        url:  /doc/tutorial/python/0013/
+      - title: "模块和库"
+        url:  /doc/tutorial/python/0014/
+      - title: "使用IDE"
+        url:  /doc/tutorial/python/0015/
+      - title: "调试程序"
+        url:  /doc/tutorial/python/0016/
+      - title: "字典"
+        url:  /doc/tutorial/python/0017/
+      - title: "自定义类"
+        url:  /doc/tutorial/python/0018/
+      - title: "异常"
+        url:  /doc/tutorial/python/0019/
+      - title: "函数可变参数"
+        url:  /doc/tutorial/python/0020/
+      - title: "通过搜索解决问题"
+        url:  /doc/tutorial/python/googleinfo/
+      # - title: "在线运行python"
+      #   url: /doc/tutorial/python/onlinepython/
+      # - title: "Python之禅"
+      #   url: /doc/tutorial/python/0021/
+
+
+pythontutor2:
+  - title: Python进阶
+    children:
+      - title: "文件和目录操作"
+        url:  /doc/tutorial/python/level2/file_dir/
+      - title: "时间和日期操作"
+        url:  /doc/tutorial/python/level2/date_time/
+      - title: "调用其他程序"
+        url:  /doc/tutorial/python/level2/1001/
+      - title: "多线程"
+        url:  /doc/tutorial/python/level2/1002/
+      - title: "json"
+        url:  /doc/tutorial/python/level2/2001/
+      - title: "Requests库"
+        url:  /doc/tutorial/python/level2/2002/
+      - title: "正则表达式"
+        url:  /doc/tutorial/python/level2/regex/
+      - title: "装饰器"
+        url:  /doc/tutorial/python/level2/decorator/
+      - title: "数据库访问"
+        url:  /doc/tutorial/python/level2/2004/
+      - title: "socket编程"
+        url:  /doc/tutorial/python/level2/2005/
+      - title: "Excel 读写"
+        url:  /doc/tutorial/python/level2/excel/
+      - title: "图形界面"
+        url:  /doc/tutorial/python/level2/2003/
+      - title: "哈希和加密"
+        url:  /doc/tutorial/python/level2/hash_encrypt/
+      - title: "制作可执行文件"
+        url: /doc/tutorial/python/level2/toexe/
+      - title: "隐藏py文件"
+        url: /doc/tutorial/python/level2/topyc/
+      - title: "浅拷贝与深拷贝"
+        url:  /doc/tutorial/python/level2/1007/
+      - title: "微信机器人"
+        url:  /doc/tutorial/python/level2/2007/ 
+
+
+
+MySQL:
+  - title: Linux
+    children:
+      - title: Linux简介和安装
+        url:  /doc/tutorial/o/linux/01/
+      - title: 文本编辑
+        url:  /doc/tutorial/o/linux/02/
+      - title: 文件系统
+        url:  /doc/tutorial/o/linux/03/
+      - title: 目录和文件操作
+        url:  /doc/tutorial/o/linux/04/
+      - title: 用户管理和文件权限
+        url:  /doc/tutorial/o/linux/05/
+      - title: 进程管理
+        url:  /doc/tutorial/o/linux/06/
+      - title: 重定向和管道
+        url:  /doc/tutorial/o/linux/07/
+      - title: 网络管理
+        url:  /doc/tutorial/o/linux/08/
+      - title: 常用命令
+        url:  /doc/tutorial/o/linux/09/
+  - title: MySQL
+    children:
+      - title: MySQL简介
+        url:  /doc/tutorial/o/mysql/01/
+      - title: Linux上安装MySQL
+        url:  /doc/tutorial/o/mysql/02/
+      - title: 数据库和表
+        url:  /doc/tutorial/o/mysql/03/
+      - title: 插入表记录
+        url:  /doc/tutorial/o/mysql/04/
+      - title: 查询、修改、删除表记录
+        url:  /doc/tutorial/o/mysql/05/
+      - title: 程序访问数据库服务
+        url:  /doc/tutorial/o/mysql/06/
+      - title: 索引和外键
+        url:  /doc/tutorial/o/mysql/07/
+      - title: 事务
+        url:  /doc/tutorial/o/mysql/08/
+
+seleniumtutor:
+  - title: Web 自动化
+    children:
+      - title: "Selenium原理与安装"
+        url:  /doc/tutorial/selenium/01/
+      - title: "选择元素的基本方法"
+        url:  /doc/tutorial/selenium/02/
+      - title: "frame切换/窗口切换"
+        url:  /doc/tutorial/selenium/03/
+      - title: "CSS语法选择元素"
+        url:  /doc/tutorial/selenium/04css/
+      - title: "Xpath选择器之基础篇"
+        url:  /doc/tutorial/selenium/08xpath_selector1/
+      - title: "Xpath选择器之高级篇"
+        url:  /doc/tutorial/selenium/09xpath_selector2/
+      - title: "实战技巧上篇"
+        url:  /doc/tutorial/selenium/10other_skills1/
+      - title: "实战技巧中篇"
+        url:  /doc/tutorial/selenium/11other_skills2/
+      - title: "实战技巧下篇"
+        url:  /doc/tutorial/selenium/12other_skills3/   
+
+
+
+webDev:
+  - title: 服务端开发 
+    children:
+      - title: "Django Web 开发简介"
+        url:  /doc/tutorial/django/01/
+      - title: "安装与运行"
+        url:  /doc/tutorial/django/02/
+      - title: "HTTP请求的url路由"
+        url:  /doc/tutorial/django/03/
+      - title: "创建数据库和表"
+        url:  /doc/tutorial/django/04/
+      - title: "读取数据库数据"
+        url:  /doc/tutorial/django/05/
+      - title: "前后端分离架构"
+        url:  /doc/tutorial/django/06/
+      - title: "资源的增查改删"
+        url:  /doc/tutorial/django/07/
+      - title: "实现登录功能"
+        url:  /doc/tutorial/django/08/
+      - title: "session 和 token"
+        url:  /doc/tutorial/django/09/
+      - title: "数据库表的关联"
+        url:  /doc/tutorial/django/10/
+      - title: "ORM 处理关联表"
+        url:  /doc/tutorial/django/11/
+      - title: "前端界面升级了"
+        url:  /doc/tutorial/django/12/
+      - title: "优化代码"
+        url:  /doc/tutorial/django/13/
+      - title: "适当的数据库冗余"
+        url:  /doc/tutorial/django/14/
+      - title: "分页和过滤"
+        url:  /doc/tutorial/django/15/
+  - title: 需求文档 
+    children:
+      - title: "需求 1.0"
+        url:  /doc/tutorial/django/req_1/
+      - title: "API接口 1.0"
+        url:  /doc/tutorial/django/doc_api_v1_0/
+      - title: "API接口 1.1"
+        url:  /doc/tutorial/django/doc_api_v1_1/
+      - title: "API接口 1.2"
+        url:  /doc/tutorial/django/doc_api_v1_2/
+        
+
+
+pythonprac:
+  
+  - title: Python基础练习
+    children:
+      - title: "安装与运行"
+        url: /doc/prac/python/0001/
+      - title: "数字运算"
+        url: /doc/prac/python/0002/
+      - title: "变量和注释"
+        url: /doc/prac/python/0003/
+      - title: "字符串"
+        url: /doc/prac/python/0004/
+      - title: "函数"
+        url: /doc/prac/python/0005/
+      - title: "用户输入"
+        url: /doc/prac/python/0006/
+      - title: "列表和元组"
+        url: /doc/prac/python/0007/
+      - title: "判断语句"
+        url: /doc/prac/python/0008/
+      - title: "对象的方法"
+        url: /doc/prac/python/0009/
+      - title: "格式化字符串"
+        url: /doc/prac/python/0010/
+      - title: "循环"
+        url: /doc/prac/python/0011/
+      - title: "文件读写"
+        url: /doc/prac/python/0013/
+      - title: "使用库"
+        url: /doc/prac/python/0014/
+      - title: "调试程序"
+        url: /doc/prac/python/0016/
+      - title: "字典"
+        url: /doc/prac/python/0017/
+      - title: "自定义类"
+        url: /doc/prac/python/0018/
+      - title: "异常"
+        url: /doc/prac/python/0019/
+      - title: "函数可变参数"
+        url:  /doc/prac/python/0020/
+      - title: "补充练习1"
+        url: /doc/prac/python/0101/
+
+  - title: Python提高练习
+    children:
+      - title: "文件和目录操作"
+        url: /doc/prac/python/file_dir/
+      - title: "日期和时间操作"
+        url: /doc/prac/python/date_time/
+      - title: "调用其它程序"
+        url: /doc/prac/python/1001/
+      - title: "多线程"
+        url: /doc/prac/python/1002/
+      - title: "requests和json"
+        url: /doc/prac/python/2002/
+      - title: "正则表达式"
+        url: /doc/prac/python/regex/
+      - title: "装饰器"
+        url: /doc/prac/python/decorator/
+      - title: "分析目录中所有的文件"
+        url: /doc/prac/python/3001/
+      - title: "自动购买高铁票"
+        url: /doc/prac/python/3002/
+      - title: "自动群发邮件"
+        url: /doc/prac/python/3003/
+      - title: "图形界面"
+        url: /doc/prac/python/2003/
+
+
+
+
+
+faq:
+  - title: Python语言
+    url:  /doc/faq/python/
+  - title: 自动化
+    url:  /doc/faq/automation/
+  - title: web开发
+    url:  /doc/faq/web/
+  - title: 人工智能
+    url:  /doc/faq/web/

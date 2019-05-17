@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>白月黑羽测试网页2</title>
+
+    </head>
+
+    
+    <script>
+
+        
+    function appendEle(info) {
+        var node = document.createElement("LI");
+        var textnode = document.createTextNode(info);
+        node.appendChild(textnode);
+        document.getElementById("add").appendChild(node);
+    }
+
+    function clickbutton() {       
+        appendEle("你点击了外部按钮");
+    }
+
+    </script>
+
+    <body>
+        
+        
+        <div><button id='outerbutton' onclick='clickbutton()' >外部按钮</button></div>
+
+        <br>
+
+        <div class="baiyueheiyu"><span>下面的内容是iframe中的</span></div>
+
+        <iframe src="sample1.html" id='frame1' name='innerFrame' width="300" height="200"></iframe>
+        
+
+
+        <div id="add"></div>
+          
+
+    </body>
+</html>
