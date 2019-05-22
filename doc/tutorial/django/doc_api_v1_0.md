@@ -82,7 +82,7 @@ ret 不为 0 表示登录失败， msg字段描述登录失败的原因
 #### 请求消息
 
 ```py
-GET  /api/mgr/customers  HTTP/1.1
+GET  /api/mgr/customers?action=list_customer  HTTP/1.1
 ```
 
 #### 请求参数
