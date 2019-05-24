@@ -214,6 +214,8 @@ webDev:
         url:  /doc/tutorial/django/14/
       - title: "分页和过滤"
         url:  /doc/tutorial/django/15/
+      - title: "部署到生产环境"
+        url:  /doc/tutorial/django/16/
   - title: 需求文档 
     children:
       - title: "需求 1.0"
