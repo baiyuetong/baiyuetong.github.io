@@ -38,12 +38,12 @@ qq群号是：235854201
 <br><br><br>
 
 1.  打开github网址 ：<a href="https://github.com/" target="_blank">https://github.com/</a> ，在下面的注册界面输入注册用户名，联系邮箱，和密码，点击Sign up for GitHub 按钮  <br>
-![image](https://user-images.githubusercontent.com/36462795/36406563-c5af3fe6-1632-11e8-9807-4464513f5faa.png)
+![image](http://v.python666.vip/img/wm/36462795_36406563-c5af3fe6-1632-11e8-9807-4464513f5faa_wm.png)
 
 <br><br><br>
 
-2.  在如下界面直接点击 Continue按钮（Continue就是下一步的意思） <br><br>
-![image](https://user-images.githubusercontent.com/36462795/36406607-146d4542-1633-11e8-9b94-4e0451588c03.png)
+1.  在如下界面直接点击 Continue按钮（Continue就是下一步的意思） <br><br>
+![image](http://v.python666.vip/img/wm/36462795_36406607-146d4542-1633-11e8-9b94-4e0451588c03_wm.png)
 
 <br><br><br>
 3.  到邮箱里面打开github发给你的邮件，点击激活链接
@@ -52,7 +52,7 @@ qq群号是：235854201
 
 <br>
 
-![image](https://user-images.githubusercontent.com/36462795/36406714-b4485264-1633-11e8-9cff-21340e5328ff.png)
+![image](http://v.python666.vip/img/wm/36462795_36406714-b4485264-1633-11e8-9cff-21340e5328ff_wm.png)
 
 <br><br><br>
 好了，账号就创建完成了。
@@ -72,7 +72,7 @@ qq群号是：235854201
 
 创建新帖非常简单， 点击这个按钮即可
 
-![image](https://user-images.githubusercontent.com/36257654/37151636-49e02664-2311-11e8-90af-944325bcb6c6.png)
+![image](http://v.python666.vip/img/wm/36257654_37151636-49e02664-2311-11e8-90af-944325bcb6c6_wm.png)
 
 
 
