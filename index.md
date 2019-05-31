@@ -6,8 +6,8 @@ title: 白月黑羽 Python3教程
 overlay_title: 视频 + 图文 + 练习
 # excerpt: "立体学习 - 图文、视频、练习、答疑"
 header:
-  overlay_image: http://v.python666.vip/img/banner3.jpg
-  overlay_color: "#266e7a"
+  overlay_image: http://v.python666.vip/img/banner-04.png
+  overlay_color: "#ffffff"
   overlay_filter: 0.5
 #   caption: "****   快速上手"
   cta_label: "点击这里，立即学习"
