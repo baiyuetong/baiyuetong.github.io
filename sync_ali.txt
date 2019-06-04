@@ -1,0 +1,12 @@
+1. 确保 _config.yml中
+incremental: false # 增量生成文档
+
+
+2. 执行
+bundle exec jekyll build
+
+
+3. 拷贝到网站上
+如果是ecs，直接拷贝_site目录，同步
+
+如果是oss：ossutil64 cp -r  .\_site oss://byhy
