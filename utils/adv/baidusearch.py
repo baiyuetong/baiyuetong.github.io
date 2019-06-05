@@ -24,13 +24,13 @@ getHeads = {"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*
 import time,traceback
 
 try:
-    for i in range(1):	
+    for i in range(300):	
         print (i)
 		
         for one in urls:
             response =  requests.get(one,  headers=getHeads)
             print(f"response: \n{response.text}\n\n")
-            time.sleep(0.4)
+            time.sleep(1.4)
 		
 		
 		
