@@ -1,15 +1,21 @@
-# v1
+# 这是定义顶层导航的, 访问什么url 的网页会使用下面的导航在 _config.yml里面设置
 main:
   - title: "Python基础"
     url: /doc/tutorial/python/0001/
   - title: "Python进阶"
     url: /doc/tutorial/python/level2/1001/
-  - title: "Linux和MySQL"
-    url: /doc/tutorial/o/linux/01/
   - title: "Web开发"
     url: /doc/tutorial/django/01/
+  - title: "Web自动化"
+    url: /doc/tutorial/selenium/01/
+  - title: "Linux和MySQL"
+    url: /doc/tutorial/o/linux/01/
   - title: "练习作业"
     url: /doc/prac/python/0001/
+  - title: "常见问题"
+    url: /doc/faq/python/home/
+  - title: "好文分享"
+    url: /doc/blog/python/home/
   # - title: "交流"
   #   url: /doc/aboutforum/
 
@@ -65,6 +71,10 @@ pythontutor1:
         url:  /doc/tutorial/python/0020/
       - title: "通过搜索解决问题"
         url:  /doc/tutorial/python/googleinfo/
+      # - title: "在线运行python"
+      #   url: /doc/tutorial/python/onlinepython/
+      # - title: "Python之禅"
+      #   url: /doc/tutorial/python/0021/
 
 
 pythontutor2:
@@ -98,6 +108,12 @@ pythontutor2:
         url:  /doc/tutorial/python/level2/hash_encrypt/
       - title: "制作可执行文件"
         url: /doc/tutorial/python/level2/toexe/
+      - title: "隐藏py文件"
+        url: /doc/tutorial/python/level2/topyc/
+      - title: "浅拷贝与深拷贝"
+        url:  /doc/tutorial/python/level2/1007/
+      - title: "微信机器人"
+        url:  /doc/tutorial/python/level2/2007/ 
 
 
 
