@@ -9,13 +9,13 @@ minimal_mistakes_skin    : "mint" # "default","air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "zh-CN" # "en-US"
-title                    : "白月黑羽教Python"
+title                    : "白月黑羽 - Web开发VIP教程"
 title_separator          : "-"
 name                     : "白月黑羽"
 description              : "白月黑羽专注Python及web开发相关知识，最大的特色是：用大量视频讲解难点，用大量练习巩固知识，帮你快点学会Python和Web开发"
-url                      : "http://www.python3.vip" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://v1.python3.vip" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "baiyuetong/baiyuetong.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "baiyuetong/v1" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -90,7 +90,7 @@ author:
   location         : "杭州"
   email            :
   uri              :
-  home             : "www.python3.vip"
+  home             : "v1.python3.vip"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -160,7 +160,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false # 增量生成文档
+incremental: true # 增量生成文档
 
 
 # Markdown Processing
@@ -322,19 +322,6 @@ defaults:
         nav: "MySQL"
 
   - scope:
-      path: "doc/tutorial/selenium"
-      type: pages
-    values:
-      layout: single
-      toc: true
-      author_profile: false
-      read_time: false
-      sidebar:
-        nav: "seleniumtutor"
-
-
-
-  - scope:
       path: "doc/prac/python"
       type: pages
     values:
@@ -342,31 +329,8 @@ defaults:
       author_profile: false
       sidebar:
         nav: "pythonprac"
-#      comments: # true
-#      share: true
-#      related: true
       read_time: false
 
-
-  - scope:
-      path: "doc/faq"
-      type: pages
-    values:
-      layout: single
-      toc: true
-      author_profile: false
-      read_time: false
-
-      
-
-  - scope:
-      path: "doc/blog"
-      type: pages
-    values:
-      layout: single
-      toc: false
-      author_profile: false
-      read_time: false
 
       
   - scope:

@@ -2,6 +2,7 @@
 
 commonFileList = [
     r'index.md',     
+    r'_config.yml',
     r'_data\navigation.yml',        
 ]
 
@@ -38,6 +39,12 @@ else:
     f.write(toWhich)
     f.close()
 
+# 检查是否反向覆盖
+REVERSE = False
+if toWhich.endswith('-'):
+    REVERSE = True
+    toWhich = toWhich[:-1]
+
 
 found = False
 for one in switchTable:
@@ -50,7 +57,12 @@ for one in switchTable:
         newPath = f'{parts[0]}_{toWhich}.{parts[1]}'
 
         print(newPath)
-        copyfile(newPath,filePath)
+        if not REVERSE:
+            copyfile(newPath,filePath)
+        else:
+            print('reverse copy >>')
+            copyfile(filePath,newPath)
+
 
 if not found:
     print(f'no such config:{toWhich}')

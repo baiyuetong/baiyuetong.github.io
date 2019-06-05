@@ -17,9 +17,6 @@ main:
 # 下面是定义侧边栏的
 
 pythontutor1:
-  # - title: 前言
-  #   url:  /doc/tutorial/python/home/
-
 
   - title: Python基础
     children:
@@ -86,18 +83,12 @@ pythontutor2:
         url:  /doc/tutorial/python/level2/regex/
       - title: "装饰器"
         url:  /doc/tutorial/python/level2/decorator/
-      - title: "数据库访问"
-        url:  /doc/tutorial/python/level2/2004/
-      - title: "socket编程"
-        url:  /doc/tutorial/python/level2/2005/
       - title: "Excel 读写"
         url:  /doc/tutorial/python/level2/excel/
       - title: "图形界面"
         url:  /doc/tutorial/python/level2/2003/
       - title: "哈希和加密"
         url:  /doc/tutorial/python/level2/hash_encrypt/
-      - title: "制作可执行文件"
-        url: /doc/tutorial/python/level2/toexe/
 
 
 
