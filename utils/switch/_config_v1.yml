@@ -124,6 +124,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - utils
   - vendor
   - .asset-cache
   - .bundle
@@ -160,7 +161,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: true # 增量生成文档
+incremental: false # 增量生成文档
 
 
 # Markdown Processing
