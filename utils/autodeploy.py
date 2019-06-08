@@ -1,3 +1,12 @@
+# 1. 确保 _config.yml中
+# incremental: false # 增量生成文档
+#
+# 2. 执行 bundle exec jekyll build
+#
+# 3. 执行 本程序
+
+
+
 HOST   = 'www.python3.vip'   # '192.168.0.103'
 PORT   = 22
 USER   = 'root'
