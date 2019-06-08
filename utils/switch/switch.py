@@ -22,7 +22,6 @@ if not (os.path.exists('byhy_run.bat') and os.path.exists('CNAME')):
 # 查看命令行参数
 if len(sys.argv) >= 2:
     toWhich = sys.argv[1]
-    print(toWhich)
 
 else:
     # 用户输入操作
