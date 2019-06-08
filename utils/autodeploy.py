@@ -81,7 +81,7 @@ shutil.make_archive(BUILD_DIR + '/_site',
                     base_dir='_site')
 
 
-print('上传安装包..',end='')
+print('上传安装包..')
 sftp = ssh.open_sftp()
 sftp.put(BUILD_DIR + '/_site.zip', REMOTE_DIR + '/_site.zip')
 sftp.close()
