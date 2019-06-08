@@ -19,22 +19,15 @@ if not (os.path.exists('byhy_run.bat') and os.path.exists('CNAME')):
     sys.exit(2)
 
 
-# 查看以往使用什么前缀
-default = ''
-historyFile = r'd:\tmp\byhy_switch'
-if os.path.exists(historyFile):
-    f = open(historyFile)
-    default = f.readline()
-    f.close()
+# 查看命令行参数
+if len(sys.argv) >= 2:
+    toWhich = sys.argv[1]
+    print(toWhich)
 
-# 用户输入操作
-toWhich = input(f'please input target[{default}]:')
-if toWhich is '':
-    toWhich = default
 else:
-    f = open(historyFile,'w')
-    f.write(toWhich)
-    f.close()
+    # 用户输入操作
+    toWhich = input(f'please input target:')
+
 
 # 检查是否反向覆盖
 REVERSE = False

@@ -1,11 +1,3 @@
-# 1. 确保 _config.yml中
-# incremental: false # 增量生成文档
-#
-# 2. 执行 bundle exec jekyll build
-#
-# 3. 执行 本程序
-
-
 
 HOST   = 'www.python3.vip'   # '192.168.0.103'
 PORT   = 22
@@ -21,22 +13,43 @@ import sys,os,shutil
 switchTable = ['free','v1']
 
 
-
 # 检查当前工作目录是否为项目根目录
 if not (os.path.exists('byhy_run.bat') and os.path.exists('CNAME')):
-    print('必须在项目根目录下面运行')
+    print('!! 必须在项目根目录下面运行')
     sys.exit(2)
+
+# 用户输入选项
+toWhich = input('\n\n发布 free还是v1？:')
+
+if toWhich not in switchTable:
+    print(f'no such config:{toWhich}')
+    sys.exit(2)
+
+# 切换目标
+print(f'\n切换版本为: {toWhich}')
+os.system(f'python utils\switch\switch.py {toWhich}')    
+
+# 确保 _config.yml中 incremental: false
+with open('_config.yml',encoding='utf8') as f:
+    content = f.read()   
+    if 'incremental: false' not in content:
+        print('!! _config.yml中 必须设置 incremental: false')
+        sys.exit(2)
+
+print('\n执行 bundle exec jekyll build...\n')
+ret = os.system('bundle exec jekyll build')    
+print(f'\nbundle exec jekyll build 执行结果:{ret}')    
+
+
+cont = input(f'\n\n继续部署操作吗？[y/n]:')
+if cont != 'y':
+    sys.exit(1)
+
 
 # 如果打包目录已经存在，先删除
 if os.path.exists(BUILD_DIR):
     shutil.rmtree(BUILD_DIR)
 
-# 用户输入选项
-toWhich = input(f'please input deploy target:')
-
-if toWhich not in switchTable:
-    print(f'no such config:{toWhich}')
-    sys.exit(2)
 
 # 确定最终的远程拷贝目录
 REMOTE_DIR += '/' + toWhich
@@ -58,8 +71,6 @@ def remoteRun(cmd, printOutput=True):
     if printOutput:
         print(output+errinfo)
     return output+errinfo
-
-
 
 
 
@@ -88,6 +99,6 @@ print('ok')
 
 
 ssh.close()
-input('...')
 
+print('\n==== 部署操作结束 ====')
 
