@@ -15,22 +15,23 @@ mysqlclient 库是C语言开发的，性能比较高。我们这里就使用它�
 
 使用文档在这里  https://mysqlclient.readthedocs.io/
 
-既然是Python的第三方库，当然是用 pip安装了。
+既然是Python的第三方库，当然是用 pip安装了。 运行命令 ```pip install mysqlclient``` 安装
 
-直接 运行： ```pip install mysqlclient``` 
+有时，我们可能需要指定mysqlclient库的版本为1.3.12，像这样  pip install mysqlclient==1.3.12    。因为mysqlclient 需要依赖一个c语言开发的库， 1.3.12版本安装包已经将c语言库编译好了，成为可执行代码库，就不需要安装时候编译了。
+{: .notice--primary}
 
-<!-- 
-为什么要指定版本==1.3.12？
-因为mysqlclient 需要依赖一个c语言开发的库， 1.3.12版本安装包已经将c语言库编译好了，成为可执行代码库，就不需要安装时候编译了。
+<br>
 
-而最新版本很可能安装时还需要编译C语言库，就可能会出现下面的错误
+如果你想使用 的客户端库是PyMySQL ，运行命令  ```pip install PyMySQL``` 安装
 
-```py
- C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -Dversion_info=(1,3,13,'final',0) -D__version__=1.3.13 "-IC:\Program Files (x86)\MySQL\MySQL Connector C 6.1\include" -Id:\tools\python36\include -Id:\tools\python36\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\winrt" /Tc_mysql.c /Fobuild\temp.win32-3.6\Release\_mysql.obj /Zl
-    _mysql.c
-    _mysql.c(29): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
-    error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\BIN\\cl.exe' failed with exit status 2
-``` -->
+
+<br>
+
+- ```视频讲解``` 
+
+<video src="http://v.python666.vip/video/o/mysql/mpmysql-06-2.mp4"  style="width: 90%;" controls controlsList="nodownload" oncontextmenu="return false;" preload="metadata" poster="{{ site.video_cover }}"></video>
+
+<br>
 
 
 ## 读取数据库表内容
@@ -108,6 +109,24 @@ print(rows)
 ```
 
 
+
+<br>
+
+- ```视频讲解``` 
+
+<video src="http://v.python666.vip/video/o/mysql/mpmysql-06-3-1.mp4"  style="width: 90%;" controls controlsList="nodownload" oncontextmenu="return false;" preload="metadata" poster="{{ site.video_cover }}"></video>
+
+
+
+<br>
+
+- ```视频讲解``` 
+
+<video src="http://v.python666.vip/video/o/mysql/mpmysql-06-3-2.mp4"  style="width: 90%;" controls controlsList="nodownload" oncontextmenu="return false;" preload="metadata" poster="{{ site.video_cover }}"></video>
+
+<br>
+
+
 ## 插入数据到数据库表
 
 我们来看下面这样的一个插入数据到数据库表的例子。
@@ -145,3 +164,12 @@ connection.close()
 插入数据操作当然也是通过  Cursor对象的execute方法，传入要数据库服务执行的 ```插入操作对应的SQL语句``` 。
 
 注意， 凡是执行 ```更改``` 数据的SQL语句，包括：插入、修改、删除， 后面一定要调用connection的commit方法，否则不生效。
+
+
+<br>
+
+- ```视频讲解``` 
+
+<video src="http://v.python666.vip/video/o/mysql/mpmysql-06-4.mp4"  style="width: 90%;" controls controlsList="nodownload" oncontextmenu="return false;" preload="metadata" poster="{{ site.video_cover }}"></video>
+
+<br>
