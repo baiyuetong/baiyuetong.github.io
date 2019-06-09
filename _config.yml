@@ -380,4 +380,14 @@ defaults:
       read_time: false
 
 
+  - scope:
+      path: "doc/adv"
+      type: pages
+    values:
+      layout: single
+      toc: false
+      author_profile: false
+      read_time: false
+
+      
 video_cover : "http://v.python666.vip/video/cover.png"
