@@ -13,5 +13,5 @@ for inputfile in inputfiles:
 
     newpath = 'http://v.python666.vip/img/wm/'+ inputfile
 
-    print('\n\n============\n\n')
-    print(oripath)
+    print('\n============\n')
+    print(newpath)

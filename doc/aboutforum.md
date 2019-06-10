@@ -81,14 +81,14 @@ qq群号是：235854201
 ### 如何贴代码
 为了让您贴上来的代码看起来和IDE里面一样清晰漂亮，有语法高亮。 可以这样
 
-![image](https://user-images.githubusercontent.com/36462795/36407230-c700aea2-1637-11e8-89a9-bd754be563f3.png)
+![image](http://v.python666.vip/img/wm/36462795_36407230-c700aea2-1637-11e8-89a9-bd754be563f3.png)
 
 将你的代码放入三个反引号（在键盘左上角ESC 数字1 按键左边的那个键）扩起来的范围里面。 
 紧跟着的py表示下面是Python代码，这样就会有Python的语法高亮了。
 
 可以点击这里，预览一下你内容发布后的样子
 
-![image](https://user-images.githubusercontent.com/36462795/36407291-4e47e15a-1638-11e8-916a-478f3a9a1477.png)
+![image](http://v.python666.vip/img/wm/36462795_36462795/36407291-4e47e15a-1638-11e8-916a-478f3a9a1477.png)
 
 
 <br>
@@ -101,9 +101,9 @@ qq群号是：235854201
 
 github会自动上传图片，并自动产生如下的图片标记。注意上传要花大概几秒钟时间，请等待如下的链接生成。 
 
-![image](https://user-images.githubusercontent.com/36462795/36407419-72b5c682-1639-11e8-9d62-ddb1ba749fb9.png)
+![image](http://v.python666.vip/img/wm/36462795_36407419-72b5c682-1639-11e8-9d62-ddb1ba749fb9.png)
 
 我们可以点击preview，预览一下插入图片的结果
 
-![image](https://user-images.githubusercontent.com/36462795/36407454-bc67e710-1639-11e8-8b65-3a7abbf02a8c.png)
+![image](http://v.python666.vip/img/wm/36462795_36407454-bc67e710-1639-11e8-8b65-3a7abbf02a8c.png)
 
