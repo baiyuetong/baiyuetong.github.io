@@ -8,24 +8,9 @@
 
 <br>
 
-<div style="width:100%;text-align:center;">
-    <a href="http://www.python3.vip/doc/adv/v1/">
-        <img src='http://v.python666.vip/img/ggao/g01.png' 
-            title="点击查看详情" 
-            width="540" 
-            height="300"/>
-    </a>
-
-    <p class="text-center" style='color: #c71111'>咨询 QQ：1750696907 | 微信：gusmike</p>
-    
-
-
+<div style="width:100%;text-align:center;" id='ggaos'>
 </div>
-
-
-
-
-
+ 
 <br>
 
 <script src="http://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
@@ -40,5 +25,22 @@
         height:200, //高度 
         text: window.location.href 
     });
+
+    if (window.location.hostname==='www.python3.vip'){
+        let  toAdd1 = `        
+<div  id='ggao1'>
+    <a href="http://www.python3.vip/doc/adv/v1/">
+        <img src='http://v.python666.vip/img/ggao/g01.png' 
+            title="点击查看详情" 
+            width="540" 
+            height="300"/>
+    </a>
+    <p class="text-center" style='color: #c71111'>咨询 QQ：1750696907 | 微信：gusmike</p>
+   
+</div>`
+        
+        let gg = document.getElementById("ggaos");
+        gg.insertAdjacentHTML('beforeend',toAdd1);
+    }
     
 </script>
