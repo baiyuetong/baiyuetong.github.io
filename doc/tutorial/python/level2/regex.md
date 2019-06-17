@@ -509,8 +509,6 @@ for one in  p.findall(content):
 匹配任意一个不是0-9之间的数字字符，等价于表达式 [^0-9]
 
 \s
-Matches any whitespace character; this is equivalent to the class [ \t\n\r\f\v].
-
 匹配任意一个空白字符，包括 空格、tab、换行符等，等价于表达式 [\t\n\r\f\v]
 
 \S
