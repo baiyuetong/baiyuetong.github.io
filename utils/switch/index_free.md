@@ -25,7 +25,7 @@ header:
     color: #b94532;
     font-size: .85em;
     font-weight: normal;
-">掌握Python语言，做开发，做自动化，工作更快乐，跳槽更容易</h4>
+">找工作、跳槽更容易</h4>
 
 <!-- 通过[计算机Python语言等级考试](http://www.python3.vip/doc/blog/python/2019010501/)
 {: .text-center} -->
@@ -33,19 +33,13 @@ header:
 {: .text-center}
 
 
-### 我很懒，也很笨，学不好怎么办？
+### 我很笨，学不好怎么办？
 {: .text-center}
 
 
 <h4 class="text-center"  style=" color: #b94532;font-size: .85em;font-weight: normal">
-找朋友一起学，互相鼓励，互相督促，互相探讨</h4>
+找朋友一起学，互相鼓励，互相督促</h4>
 
-
-<h4 class="text-center"  style="
-    color: #b94532;
-    font-size: .85em;
-    font-weight: normal;
-">QQ交流群 235854201</h4>
 
 
 <h4 class="text-center"  style="
