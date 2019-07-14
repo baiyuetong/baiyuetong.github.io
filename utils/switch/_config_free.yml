@@ -331,8 +331,18 @@ defaults:
       author_profile: false
       read_time: false
       sidebar:
-        nav: "seleniumtutor"
+        nav: "autoPerf"
 
+  - scope:
+      path: "doc/tutorial/o/perf"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      author_profile: false
+      read_time: false
+      sidebar:
+        nav: "autoPerf"
 
 
   - scope:
