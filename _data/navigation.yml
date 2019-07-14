@@ -6,7 +6,7 @@ main:
     url: /doc/tutorial/python/level2/1001/
   - title: "Web开发"
     url: /doc/tutorial/django/01/
-  - title: "Web自动化"
+  - title: "自动化和性能测试"
     url: /doc/tutorial/selenium/01/
   - title: "Linux和MySQL"
     url: /doc/tutorial/o/linux/01/
@@ -157,8 +157,8 @@ MySQL:
       - title: 事务
         url:  /doc/tutorial/o/mysql/08/
 
-seleniumtutor:
-  - title: Web 自动化
+autoPerf:
+  - title: Web自动化
     children:
       - title: "Selenium原理与安装"
         url:  /doc/tutorial/selenium/01/
@@ -179,6 +179,10 @@ seleniumtutor:
       - title: "实战技巧下篇"
         url:  /doc/tutorial/selenium/12other_skills3/   
 
+  - title: 性能测试
+    children:
+      - title: "白月黑羽性能测试工具"
+        url:  /doc/tutorial/o/perf/01/
 
 
 webDev:
