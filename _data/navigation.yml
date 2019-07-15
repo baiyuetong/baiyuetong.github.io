@@ -275,6 +275,8 @@ pythonprac:
         url:  /doc/prac/python/0020/
       - title: "补充练习1"
         url: /doc/prac/python/0101/
+      - title: "补充练习2"
+        url: /doc/prac/python/0102/
 
   - title: Python提高练习
     children:
