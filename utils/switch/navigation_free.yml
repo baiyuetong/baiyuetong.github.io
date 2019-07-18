@@ -183,6 +183,8 @@ autoPerf:
     children:
       - title: "白月黑羽性能测试工具"
         url:  /doc/tutorial/o/perf/01/
+      - title: "使用场景"
+        url:  /doc/tutorial/o/perf/02/
 
 
 webDev:
